@@ -32,14 +32,14 @@ To run this Vue app, follow these steps:
 	```
 
 # Components
--**AppTemplate.** The AppTemplate component defines the overall structure and layout of the application. 
--**AppStyle.** The AppStyle component handles all the styling for the application. 
--**AppScript.** The AppScript component contains all the logic and functionality of the application,
+- **AppTemplate.** The AppTemplate component defines the overall structure and layout of the application. 
+- **AppStyle.** The AppStyle component handles all the styling for the application. 
+- **AppScript.** The AppScript component contains all the logic and functionality of the application,
 		including handling user interactions, API calls, and managing application state. 
--**Backend Interaction.** In a typical setup, this application is designed to work with a Flask backend, 
+- **Backend Interaction.** In a typical setup, this application is designed to work with a Flask backend, 
 				allowing seamless interaction with OpenAI agents for dynamic responses. 
 				However, for the purposes of this demo, a mockApi.js has been included.
--**mockAPI.js** provides predetermined outputs, enabling the application to function without a backend.
+- **mockAPI.js** provides predetermined outputs, enabling the application to function without a backend.
 
 # Usage Examples
 1. Login: Use the following credentials to log in:
