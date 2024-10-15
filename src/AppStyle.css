@@ -1,0 +1,48 @@
+/*<style scoped>*/
+.app-container {
+  display: flex;
+  height: 100vh;
+}
+.content {
+  width: 80%;
+  padding: 20px;
+  background-color: #f9f9f9;
+  overflow-y: auto;
+}
+.answer-box {
+    border: 1px solid #007BFF; /* Blue border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px; /* Spacing inside the box */
+    background-color: #f8f9fa; /* Light background color */
+    margin-top: 10px; /* Spacing above the box */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+.session-history {
+    background-color: #f0f0f0; /* Light gray background */
+    padding: 15px; /* Spacing inside the container */
+    border-radius: 8px; /* Rounded corners */
+    margin-top: 15px; /* Spacing above the container */
+}
+
+.session-history h3 {
+    font-size: 1.2em; /* Slightly smaller font for the heading */
+}
+
+.session-history ul {
+    list-style-type: none; /* Remove default bullet points */
+    padding-left: 0; /* Remove default padding */
+}
+
+.session-history li {
+    font-size: 0.9em; /* Smaller font size for the list items */
+    margin-bottom: 10px; /* Spacing between list items */
+}
+
+.selected-words-box {
+    background-color: #bb9f9f; /* Light gray background */
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/*</style>*/
